@@ -6,13 +6,18 @@ html {
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 @media screen and (orientation: portrait) {
-  #me { max-width: 85%; }
+  #me {
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 127.5%;
+  }
 }
 
 @media screen and (orientation: landscape) {
-  #me { max-height: 80%; }
+  #me {
+    max-height: 80%;
+    transform: translate(-50%, -50%);
+  }
 }
