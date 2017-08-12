@@ -10,7 +10,7 @@ html {
 }
 
 @media screen and (orientation: portrait) {
-  #me { max-width: 80%; }
+  #me { max-width: 85%; }
 }
 
 @media screen and (orientation: landscape) {
