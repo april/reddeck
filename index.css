@@ -1,0 +1,11 @@
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+}
+
+#me {
+  max-height: 80%;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
